@@ -1,3 +1,3 @@
-<footer>
+<div id="footer">
   Footer graphics bar & copyright WIP
-</footer>
+</div>

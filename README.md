@@ -1,5 +1,5 @@
 # ITMD362-Project2
 Page breakdown:
-  • Login
+  • Sara -> Login, header and footer
   • Home portal
   • Registration tab/pages?

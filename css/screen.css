@@ -1,0 +1,10 @@
+/* Universal CSS */
+html {
+  font-family: 'Lato', sans-serif;
+}
+
+/* Login page specific CSS */
+.logblock label {
+  display: block;
+  text-align: left;
+}

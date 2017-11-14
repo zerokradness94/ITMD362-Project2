@@ -1,5 +1,5 @@
 # ITMD362-Project2
 Page breakdown:
   • Sara -> Login, header and footer
-  • Home portal
+  • Tim -> Home portal
   • Registration tab/pages?

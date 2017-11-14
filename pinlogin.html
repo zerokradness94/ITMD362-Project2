@@ -4,7 +4,8 @@
     <title>MyIIT</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no"/>
-<link rel="stylesheet" media="screen" href="css/normalize.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="css/normalize.css" />
     <link rel="stylesheet" media="screen" href="css/pin.css" />
     <script src="js/pinscripts.js"></script>
   </head>
@@ -12,15 +13,28 @@
     <header>
       <img src="media/iitbannertext.png">
     </header>
+    <form name="pinterm" id="pinterm" action="#null" autocomplete="on">
+      <h1>Registration Term</h1>
+      <p id="pterm">"Please select a term"</p>
+      <fieldset>
+        <select name="terms">
+          <option value="summer18">Summer 2018</option>
+          <option value="spring18">Spring 2018</option>
+          <option value="fall17">Fall 2017</option>
+          <option value="summer17">Summer 2017</option>
+        </select>
+      </fieldset>
+      <h1>Alternate Pin</h1>
+      <p id="ppin">"Please enter your Alternate Pin provided to you by your advisor"</p>
+      <fieldset>
+        <p><label>PIN: <input type="number" name="pin"></labe></p>
+      </fieldset>
+    </form>
     <footer>
       <img class="floatleft" src="media/decorbanner.png">
       <div id="contactbox">
         <img class="floatleft" src="media/semitranslogogray.png">
         <p id="iitfauxlogo">Illinois Institute of Technology</p>
-        <a href="http://www.iit.edu">Home</a>  &#9474;
-        <a href="http://www.iit.edu">Maps</a>  &#9474;
-        <a href="http://www.iit.edu">Terms of Use</a>  &#9474;
-        <a href="http://www.iit.edu">Emergency Info</a>
       </div>
     </footer>
   </body>

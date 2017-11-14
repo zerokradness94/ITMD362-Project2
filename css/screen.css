@@ -1,0 +1,148 @@
+/* Universal CSS */
+html {
+  font-family: 'Lato', 'Century Gothic', 'Arial', sans-serif;
+  font-color: #FFF;
+}
+
+header {
+  background-color: #000;
+  color: #FFF;
+  height: 35px;
+  width: 100%;
+}
+
+header img {
+  padding-left: 4.5em;
+}
+
+footer {
+  background-color: #ac1e1d;
+  height: 95px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3.2em;
+  line-height: 0.2em;
+}
+
+form {
+  display: block;
+  text-align: center; 
+}
+
+a:link, a:visited {
+  color: #000;
+  font-weight: 700;
+}
+
+a:hover {
+  font-weight: 900;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.floatleft {
+  float: left;
+}
+
+.floatright {
+  float: right;
+}
+
+
+
+
+/* Login page specific CSS */
+.logblock label {
+  display: block;
+  text-align: left;
+  font-size: 1.5em;
+  padding-left: 1.1em;
+}
+
+#logwrap {
+  width: 52.2em;
+  margin: 0 auto;
+  padding-top: 3.4em;
+  padding-right: 6.2em;
+}
+
+#formbox {
+  background-color: #CFCFCF;
+  padding: 1.2em;
+  padding-bottom: 2.1em; 
+  padding-top: 2.1em;
+  width: 32em;
+  height: 21.5em;
+}
+
+#logtitle {
+  font-weight: 900;
+  font-size: 3.5em;
+  padding: none;
+  line-height: 0.2em;
+  clear: right;
+}
+
+#inputUname, #inputPasswd {
+  width: 92%;
+  padding: 0.1em 0.4em;
+  border-radius: 0.55em;
+  margin-bottom: 0.9em;
+  border: 2px solid #acacac;
+  height: 2.5em;
+}
+
+#loginButton {
+  padding: 0.5em 0.5em;
+  background: #ac1e1d;
+  font-size: 1.5em;
+  font-weight: 700;
+  border: none;
+  height: 2.6em;
+  border-radius: 0.55em;
+  color: white;
+  width: 92%;
+  margin: 0.9em;
+}
+
+#forgot a:link, a:visited {
+  font-size: 1.2em;
+}
+
+#forgot a:hover {
+  font-weight: 900;
+}
+
+#relatedlinks {
+  float: right; 
+}
+
+#contactbox {
+  background-image: url(media/semitranslogogray.png);
+  padding-right: 7em;
+  padding-left: 1em;
+  padding-top:0.8em;
+  width: 30em;
+  float: right;
+  text-align: center;
+  clear: right;
+}
+
+#iitfauxlogo {
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 1.3em;
+  font-size: 1.4em;
+  color: #FFF;
+  line-height:0.1em;
+  margin-left: 0.4em;
+  margin-top: 0.75em;
+  margin-bottom: 0.7em;
+  text-transform: uppercase;
+}

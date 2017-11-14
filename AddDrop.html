@@ -8,6 +8,7 @@
     <link rel="stylesheet" media="screen" href="css/normalize.css" />
     <link rel="stylesheet" media="screen" href="css/pin.css" />
     <script src="js/pinscripts.js"></script>
+  </script>
   </head>
   <body>
     <header>
@@ -17,7 +18,7 @@
 	    <h1>Add Or Drop Classes</h1>
 		<h2>Using CRN numbers</h2>
 		<p>Please enter the CRN number of the classes you wish to add and press submit.</p>
-	    <fieldset id= "CRN">
+	    <fieldset id= "CRNinput">
 		  <p>
 		    <label><input type="text" name="crn1_field" placeholder="CRN #1"></label>
 		    <label><input type="text" name="crn2_field" placeholder="CRN #2"></label>
@@ -38,14 +39,13 @@
               <option value="BIO">Biology</option>
               <option value="CS">Computer Science</option>
 			  <option value="ITM">Information Technology and Management</option>
-			  <option value="MATH">MATH</option>
+			  <option value="MATH">Math</option>
 			</select>
 			<select name="courseNumb">
 			  <option value="" disabled selected>Select course number</option>
               <option value="300">300</option>
               <option value="350">350</option>
 			  <option value="400">400</option>
-			  <option value="450">450</option>
 			</select>
 			<select name="sectionNumb">
 			  <option value="" disabled selected>Select course section</option>

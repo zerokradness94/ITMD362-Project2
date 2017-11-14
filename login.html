@@ -8,28 +8,35 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="css/screen.css"/>
   </head>
-  
   <body>
     <header>
-  
-    </header>
-  
+      <img src="media/iitbannertext.png">
+    </header>    
       <main id="content">
-        <form name="login" method="get" autocomplete="on" action="#null">
-          <div class="logblock">
-            <label>Username</label>
-            <input type="text" id="inputUname" name="uname" required=""></p>
+        <div id="logwrap">
+          <img id="myiit" src="media/myiitlogo.png">
+          <p id="logtitle">  &#9474;  Login</p>
+          <div id="formbox">
+            <form id="login" method="get" autocomplete="on" action="#null">
+              <div class="logblock">
+                <label>Username</label>
+                <input type="text" id="inputUname" name="uname" required=""></p>
+              </div>
+              <div class="logblock">
+                <label>Password</label>
+                <input type="password" id="inputPasswd" name="passwd" required="">
+              </div>
+              <p id="forgot"><a href="www.iit.edu">Forgot your password?</a></p>
+              <p><input type="submit" id="loginButton" name="submit" value="Log In"></p>
+            </form>
           </div>
-          <div class="logblock">
-            <label>Password</label>
-            <input type="password" id="inputPasswd" name="passwd" required="">
-          </div>
-          <p><input type="submit" id="submitButton" name="submit" value="Log In"></p>
-        </form>
+        </div>
       </main>
-   
     <footer>
+      <img src="media/decorbanner.png">
+      <div id="contact">
+        
+      </div>
     </footer>
-   
   </body>
 </html>

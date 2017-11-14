@@ -16,7 +16,7 @@ header img {
 }
 
 footer {
-  background-color: #b51919;
+  background-color: #ac1e1d;
   height: 95px;
   width: 100%;
   position: absolute;
@@ -34,9 +34,27 @@ form {
   text-align: center; 
 }
 
+a:link, a:visited {
+  color: #000;
+  font-weight: 700;
+}
+
+a:hover {
+  font-weight: 900;
+}
+
 textarea:focus, input:focus{
     outline: none;
 }
+
+.floatleft {
+  float: left;
+}
+
+.floatright {
+  float: right;
+}
+
 
 
 
@@ -49,7 +67,7 @@ textarea:focus, input:focus{
 }
 
 #logwrap {
-  width: 56.2em;
+  width: 52.2em;
   margin: 0 auto;
   padding-top: 3.4em;
   padding-right: 6.2em;
@@ -72,11 +90,7 @@ textarea:focus, input:focus{
   clear: right;
 }
 
-#myiit {
-  float: left;
-}
-
-form input[type='text'], form input[type='password'] {
+#inputUname, #inputPasswd {
   width: 92%;
   padding: 0.1em 0.4em;
   border-radius: 0.55em;
@@ -85,9 +99,9 @@ form input[type='text'], form input[type='password'] {
   height: 2.5em;
 }
 
-form input[type='submit']{
+#loginButton {
   padding: 0.5em 0.5em;
-  background: #b51919;
+  background: #ac1e1d;
   font-size: 1.5em;
   font-weight: 700;
   border: none;
@@ -99,11 +113,36 @@ form input[type='submit']{
 }
 
 #forgot a:link, a:visited {
-  color: #000;
-  font-weight: 700;
   font-size: 1.2em;
 }
 
 #forgot a:hover {
   font-weight: 900;
+}
+
+#relatedlinks {
+  float: right; 
+}
+
+#contactbox {
+  background-image: url(media/semitranslogogray.png);
+  padding-right: 7em;
+  padding-left: 1em;
+  padding-top:0.8em;
+  width: 30em;
+  float: right;
+  text-align: center;
+  clear: right;
+}
+
+#iitfauxlogo {
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 1.3em;
+  font-size: 1.4em;
+  color: #FFF;
+  line-height:0.1em;
+  margin-left: 0.4em;
+  margin-top: 0.75em;
+  margin-bottom: 0.7em;
+  text-transform: uppercase;
 }

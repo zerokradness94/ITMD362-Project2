@@ -29,24 +29,6 @@ h1 {
   line-height: 0.2em;
 }
 
-form {
-  display: block;
-  text-align: center; 
-}
-
-a:link, a:visited {
-  color: #000;
-  font-weight: 700;
-}
-
-a:hover {
-  background-color: black;
-}
-
-textarea:focus, input:focus{
-    outline: none;
-}
-
 .floatleft {
   float: left;
 }
@@ -77,17 +59,25 @@ textarea:focus, input:focus{
   font-size: .9em;
 }
 
+/* Navbar CSS */
+
 #navbar {
   display: inline-block;
   background-color: #ac1e1d;
   width: 100%;
+  text-align: center;
+}
+
+#navlist a.active {
+  background-color: black;
+  color: white;
 }
 
 #navlist {
   padding: 0;
 }
 
-#navlist li a {
+#navlist a {
   text-decoration: none;
   color: white;
   text-align: center;
@@ -97,29 +87,26 @@ textarea:focus, input:focus{
   padding-bottom: 2%;
   font-size: 1.4em;
   overflow: hidden;
+  white-space: nowrap;
 }
 
 #navlist li {
   display: inline;
   margin: 0;
-  overflow: hidden;
 }
 
-#navlist li:hover {
-  background-color: black;
-  color: white;
-}
-
-#navlist li:active {
+#navlist a:hover {
   background-color: black;
   color: white;
 }
 
 #uname {
+  padding-left: 2%;
   float: left;
 }
 
 #cwid {
+  padding-right: 2%;
   float: right;
 }
 
@@ -131,4 +118,9 @@ textarea:focus, input:focus{
   background-color: #CFCFCF;
   float: left;
   padding-right: 5%;
+  text-decoration: none;
+}
+
+#ablist {
+  text-decoration-type: none;
 }

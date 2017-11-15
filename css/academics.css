@@ -66,7 +66,7 @@ textarea:focus, input:focus{
   
 }
 
-ul a {
+#links a {
   display: block;
   clear:left;
 }
@@ -99,4 +99,70 @@ tbody tr:nth-child(even){
 #currentsem {
   font-style: italic;
   font-size: 75%;
+}
+
+/* Navbar CSS */
+
+#navbar {
+  display: inline-block;
+  background-color: #ac1e1d;
+  width: 100%;
+  text-align: center;
+}
+
+#navlist a.active {
+  background-color: black;
+  color: white;
+}
+
+#navlist {
+  padding: 0;
+}
+
+#navlist a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 1.4em;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#navlist li {
+  display: inline;
+  margin: 0;
+}
+
+#navlist a:hover {
+  background-color: black;
+  color: white;
+}
+
+#uname {
+  padding-left: 2%;
+  float: left;
+}
+
+#cwid {
+  padding-right: 2%;
+  float: right;
+}
+
+#floatboxes {
+  width: 100%;
+}
+
+#actionbox {
+  background-color: #CFCFCF;
+  float: left;
+  padding-right: 5%;
+  text-decoration: none;
+}
+
+#ablist {
+  text-decoration-type: none;
 }

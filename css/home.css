@@ -1,0 +1,130 @@
+/* Universal CSS */
+html {
+  font-family: 'Lato', 'Century Gothic', 'Arial', sans-serif;
+  font-color: #FFF;
+}
+
+header {
+  background-color: #000;
+  color: #FFF;
+  height: 35px;
+  width: 100%;
+}
+
+header img {
+  padding-left: 4.5em;
+}
+
+footer {
+  background-color: #ac1e1d;
+  height: 95px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3.2em;
+  line-height: 0.2em;
+}
+
+form {
+  display: block;
+  text-align: center; 
+}
+
+a:link, a:visited {
+  color: #000;
+  font-weight: 700;
+}
+
+a:hover {
+  background-color: black;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.floatleft {
+  float: left;
+}
+
+.floatright {
+  float: right;
+}
+
+
+
+
+/* Homepage specific CSS */
+#userbar {
+  display: inline-block;
+  background-color: #ac1e1d;
+  width: 100%;
+}
+
+#ubinfo {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#ubinfo li {
+  display: inline;
+  color: #FFFFFF;
+  font-size: .9em;
+}
+
+#navbar {
+  display: inline-block;
+  background-color: #ac1e1d;
+  width: 100%;
+}
+
+#navlist li a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 1.4em;
+  overflow: hidden;
+}
+
+#navlist li {
+  display: inline;
+  margin: 0;
+  overflow: hidden;
+}
+
+#navlist li:hover {
+  background-color: black;
+  color: white;
+}
+
+#navlist li:active {
+  backgroun-color: black;
+  color: white;
+}
+
+#uname {
+  float: left;
+}
+
+#cwid {
+  float: right;
+}
+
+#floatboxes {
+  width: 100%;
+}
+
+#actionbox {
+  background-color: #CFCFCF;
+  float: left;
+  padding-right: 5%;
+}

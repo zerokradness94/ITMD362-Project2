@@ -97,6 +97,6 @@ tbody tr:nth-child(even){
 }
 
 #currentsem {
-  font-size: 1em;
-  
+  font-style: italic;
+  font-size: 75%;
 }

@@ -1,12 +1,12 @@
 /* Universal CSS */
 html {
   font-family: 'Lato', 'Century Gothic', 'Arial', sans-serif;
-  font-color: #FFF;
+  font-color: #ffffff;
 }
 
 header {
   background-color: #000;
-  color: #FFF;
+  color: #ffffff;
   height: 35px;
   width: 100%;
 }
@@ -122,5 +122,5 @@ h1 {
 }
 
 #ablist {
-  text-decoration-type: none;
+  text-decoration: none;
 }

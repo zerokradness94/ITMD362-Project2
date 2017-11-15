@@ -1,7 +1,7 @@
 /* Universal CSS */
 html {
   font-family: 'Lato', 'Century Gothic', 'Arial', sans-serif;
-  font-color: #FFF;
+  font-color: #ffffff;
 }
 
 header {
@@ -72,7 +72,7 @@ textarea:focus, input:focus{
 }
 
 .headlines {
-  display: inilne-block;
+  display: inilne;
  
 }
 
@@ -164,5 +164,5 @@ tbody tr:nth-child(even){
 }
 
 #ablist {
-  text-decoration-type: none;
+  text-decoration: none;
 }

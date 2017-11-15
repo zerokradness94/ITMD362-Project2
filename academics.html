@@ -13,7 +13,24 @@
     <header>
       <img src="media/iitbannertext.png" alt="iitbanner">
     </header>
-    <div class="container">
+    <main id="content">
+         <nav id="navbar">
+            <ul id="navlist">
+                <li><a href="home.html" class="active">Home</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="webApps.html">Web Apps</a></li>
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+        </nav>
+        <div id="userbar">
+            <ul id="ubinfo">
+                <li id="uname">uname4</li>
+                <li id="cwid">CWID: A1234567890</li>
+            </ul>
+        </div>
+    <div>
+
       <h1 class="headlines">Academics</h1>
       <h2 class="headlines">Courses <em id="currentsem">(Fall 2017)</em></h2>
       <table id="courses">
@@ -47,15 +64,15 @@
       </table>
       <h2 class="headlines">Student Actions</h2>
 		  <ul>
-        <a href="pinlogin.html">Register for classes</a>
+        <li><a href="pinlogin.html">Register for classes</a></li>
       </ul>
       <h2 class="headlines">Information</h2>
-      <ul>
-        <a href="https://web.iit.edu/ugaa/undergraduate-bulletin">Undergraduate Bulletin</a>
-        <a href="https://web.iit.edu/academic-affairs/graduate-bulletin">Graduate Bulletin</a>
-        <a href="https://web.iit.edu/registrar/academic-calendar">Academic Calendar</a>
-        <a href="https://web.iit.edu/sites/web/files/departments/registrar/pdfs/final_exam_schedule.pdf">
-        Spring 2017 Final Exam Schedule</a>
+      <ul id="links">
+        <li><a href="https://web.iit.edu/ugaa/undergraduate-bulletin">Undergraduate Bulletin</a></li>
+        <li><a href="https://web.iit.edu/academic-affairs/graduate-bulletin">Graduate Bulletin</a></li>
+        <li><a href="https://web.iit.edu/registrar/academic-calendar">Academic Calendar</a></li>
+        <li><a href="https://web.iit.edu/sites/web/files/departments/registrar/pdfs/final_exam_schedule.pdf">
+        Spring 2017 Final Exam Schedule</a></li>
       </ul>
     
     </div>
@@ -68,5 +85,6 @@
         <p id="iitfauxlogo">Illinois Institute of Technology</p>
       </div>
     </footer>
+    </main>
   </body>
 </html>

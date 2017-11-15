@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no"/>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" media="screen" href="css/normalize.css" />
-    <link rel="stylesheet" media="screen" href="css/pin.css" />
-    <script src="js/pinscripts.js"></script>
+    <link rel="stylesheet" media="screen" href="css/add.css" />
+    <script src="js/addrop.js"></script>
   </head>
   <body>
     <header>
@@ -19,17 +19,18 @@
 		<p>Please enter the CRN number of the classes you wish to add and press submit.</p>
 	    <fieldset id= "CRNinput">
 		  <p>
-		    <label><input type="text" name="crn1_field" placeholder="CRN #1"></label>
-		    <label><input type="text" name="crn2_field" placeholder="CRN #2"></label>
-			<label><input type="text" name="crn3_field" placeholder="CRN #3"></label>
-			<label><input type="text" name="crn4_field" placeholder="CRN #4"></label>
-			<label><input type="text" name="crn5_field" placeholder="CRN #5"></label>
-			<label><input type="text" name="crn6_field" placeholder="CRN #6"></label>
+		    <label><input type="text" id="crn1" name="crn1_field" placeholder="CRN #1"></label>
+		    <label><input type="text" id="crn2" name="crn2_field" placeholder="CRN #2"></label>
+			<label><input type="text" id="crn3" name="crn3_field" placeholder="CRN #3"></label>
+			<label><input type="text" id="crn4" name="crn4_field" placeholder="CRN #4"></label>
+			<label><input type="text" id="crn5" name="crn5_field" placeholder="CRN #5"></label>
+			<label><input type="text" id="crn6" name="crn6_field" placeholder="CRN #6"></label>
 		  </p>
 		</fieldset>
 		<div id= "button">
-	      <input type="submit" value="Add to Schedule">
+	      <input type="submit" value="Add to Schedule" onsubmit="return results();">
 	    </div>
+		
 		<h2>Add Using Course numbers</h2>
 		<p>Please select the course name, number, and section of the class you wish to add and press submit.</p>
 		 <fieldset id= "CourseIndepth">
@@ -70,7 +71,8 @@
 		<div id= "button">
 	      <input type="submit" value="Save changes">
 	    </div>
-	  </form>	  
+	  </form>	
+	  <p><span id='display'></span></p>
     <footer>
       <img class="floatleft" src="media/decorbanner.png" alt="decorbanner">
       <div id="contactbox">

@@ -1,7 +1,6 @@
 /* Universal CSS */
 html {
   font-family: 'Lato', 'Century Gothic', 'Arial', sans-serif;
-  font-color: #ffffff;
 }
 
 header {
@@ -72,7 +71,7 @@ textarea:focus, input:focus{
 }
 
 .headlines {
-  display: inilne;
+  display: inline;
  
 }
 

@@ -1,7 +1,6 @@
 /* Universal CSS */
 html {
   font-family: 'Lato', 'Century Gothic', 'Arial', sans-serif;
-  font-color: #FFF;
 }
 
 header {
@@ -83,7 +82,7 @@ textarea:focus, input:focus{
 #logtitle {
   font-weight: 900;
   font-size: 3.5em;
-  padding: none;
+  padding: 0em;
   line-height: 0.2em;
   clear: right;
 }

@@ -1,7 +1,6 @@
 /* Universal CSS */
 html {
   font-family: 'Lato', 'Century Gothic', 'Arial', sans-serif;
-  font-color: #FFFFFF;
 }
 
 header {
@@ -77,5 +76,4 @@ textarea:focus, input:focus{
   margin-bottom: 0.7em;
   text-transform: uppercase;
 }
-.html
-/*CSS specific to pinlogin*/
+/*.htmlCSS specific to pinlogin*/

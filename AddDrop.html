@@ -13,7 +13,7 @@
     <header>
       <img src="media/iitbannertext.png" alt="iitbanner">
     </header>
-	  <form>
+	  <form name="AddDrop">
 	    <h1>Add Or Drop Classes</h1>
 		<h2>Add Using CRN numbers</h2>
 		<p>Please enter the CRN number of the classes you wish to add and press submit.</p>
@@ -28,7 +28,7 @@
 		  </p>
 		</fieldset>
 		<div id= "button">
-	      <input type="submit" value="Add to Schedule" onsubmit="return results();">
+	      <input type="submit" value="Add to Schedule">
 	    </div>
 		
 		<h2>Add Using Course numbers</h2>
@@ -61,18 +61,29 @@
 		<h2>Drop Classes</h2>
 		<p>Use the dropdown menu next to the class if you wish to drop it.</p>
 		 <fieldset id= "Dropping">
-		  <p>
+		  <p>BIO 300-02
+		    <select name="Drop">
+			  <option value="" disabled selected>Select course of action</option>
+              <option value="Drop">Drop Class</option>
+			</select>
+		  </p>
+		  <p>ITM 400-01
+		    <select name="Drop">
+			  <option value="" disabled selected>Select course of action</option>
+              <option value="Drop">Drop Class</option>
+			</select>
+		  </p>
+		  <p>MATH 350-01
 		    <select name="Drop">
 			  <option value="" disabled selected>Select course of action</option>
               <option value="Drop">Drop Class</option>
 			</select>
 		  </p>
 		</fieldset>
-		<div id= "button">
+		<div id= "button3">
 	      <input type="submit" value="Save changes">
 	    </div>
 	  </form>	
-	  <p><span id='display'></span></p>
     <footer>
       <img class="floatleft" src="media/decorbanner.png" alt="decorbanner">
       <div id="contactbox">

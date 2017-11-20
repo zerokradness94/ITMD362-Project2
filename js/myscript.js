@@ -3,9 +3,6 @@ var names = ['thor', 'capamerica', 'hulk', 'batman']; //usernames
 var pword = ['lightning', 'shield', 'green', 'batman']; //passwords
 var CWID = ['A10536', 'A26842', 'A84635', '97315']; //user ID
 var regpin = ['123', '456', '789', '111']; //registry pins
-var currentuser = "";
-var currentCWID = "";
-
 
 //checks if login credentials are accurate
 function signIn ()
@@ -19,9 +16,9 @@ function signIn ()
   
   if (containuser > -1 && pass == pword[containuser]) //username and password match
   {
-    //set global variables to be used in other pages
-    currentuser = user;
-    currentCWID = CWID[containuser]; 
+    //assign username and CWID to localStorage
+    localStorage.setItem ('currentUser', names[containuser]);
+    localStorage.setItem ('currentCWID', CWID[containuser]); 
     
     window.location.replace("home.html"); //redirects to home page
     return false;
@@ -37,3 +34,14 @@ function signIn ()
   }
   document.getElementById("login_form").submit();
 };
+
+//sets username and CWID to appear on page
+window.onload = function (){
+  //get info from localStorage and set it to variable 
+  var currentuser = localStorage.getItem('currentUser');
+  var currentCWID = localStorage.getItem('currentCWID');
+  
+  //set username and CWID to display on navbar
+  document.getElementById("uname").textContent = currentuser;
+  document.getElementById("cwid").textContent = currentCWID;
+}; 

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MyIIT</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="css/normalize.css" />
+    <link rel="stylesheet" media="screen" href="css/home.css" />
+    <link rel="stylesheet" media="screen" href="css/pin.css" />
+    <script src="js/pinscripts.js"></script>
+  </head>
+  <body>
+    <header>
+      <img src="media/iitbannertext.png" alt="IIT Banner">
+    </header>
+    <nav id="navbar">
+        <ul id="navlist">
+            <li><a href="home.html" class="active">Home</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="webApps.html">Web Apps</a></li>
+            <li><a href="login.html">Logout</a></li>
+        </ul>
+    </nav>
+    <div id="userbar">
+        <ul id="ubinfo">
+            <li id="uname">uname4</li>
+            <li id="cwid">CWID: A1234567890</li>
+        </ul>
+    </div>
+    <form name="pinterm" id="pinterm" action="#null" autocomplete="on">
+      <h1>Registration Term</h1>
+      <p id="pterm">Please select a term</p>
+      <fieldset>
+        <select name="terms">
+          <option value="summer18">Summer 2018</option>
+          <option value="spring18">Spring 2018</option>
+          <option value="fall17">Fall 2017</option>
+          <option value="summer17">Summer 2017</option>
+        </select>
+      </fieldset>
+      <h1>Alternate Pin</h1>
+      <p id="ppin">Please enter your Alternate Pin provided to you by your advisor</p>
+      <fieldset>
+        <p><label>PIN: <input type="number" name="pin"></label></p>
+      </fieldset>
+    </form>
+    <footer>
+      <img class="floatleft" src="media/decorbanner.png" alt="IIT Decor Banner">
+      <div id="contactbox">
+        <img class="floatleft" src="media/semitranslogogray.png" alt="Translucent IIT Logo">
+        <p id="iitfauxlogo">Illinois Institute of Technology</p>
+      </div>
+    </footer>
+  </body>
+</html>

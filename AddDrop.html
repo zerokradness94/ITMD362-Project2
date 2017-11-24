@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MyIIT Add/Drop</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="css/normalize.css" />
+    <link rel="stylesheet" media="screen" href="css/add.css" />
+    <script src="js/addrop.js"></script>
+  </head>
+  <body>
+    <header>
+      <img src="media/iitbannertext.png" alt="iitbanner">
+    </header>
+	<nav id="navbar">
+      <ul id="navlist">
+        <li><a href="home.html" class="active">Home</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="webApps.html">Web Apps</a></li>
+        <li><a href="login.html">Logout</a></li>
+      </ul>
+    </nav>
+	<div id="userbar">
+      <ul id="ubinfo">
+        <li id="uname">uname4</li>
+        <li id="cwid">CWID: A1234567890</li>
+      </ul>
+    </div>
+	  <form name="AddDrop">
+	    <h1>Add Or Drop Classes</h1>
+		<h2>Add Using CRN Numbers</h2>
+		<p>Please enter the CRN number of the classes you wish to add and press submit.</p>
+	    <fieldset id= "CRNinput">
+		  <p>
+		    <label><input type="text" id="crn1" name="crn1_field" placeholder="CRN #1"></label>
+		    <label><input type="text" id="crn2" name="crn2_field" placeholder="CRN #2"></label>
+			<label><input type="text" id="crn3" name="crn3_field" placeholder="CRN #3"></label>
+			<label><input type="text" id="crn4" name="crn4_field" placeholder="CRN #4"></label>
+			<label><input type="text" id="crn5" name="crn5_field" placeholder="CRN #5"></label>
+			<label><input type="text" id="crn6" name="crn6_field" placeholder="CRN #6"></label>
+		  </p>
+		</fieldset>
+		<div id= "button">
+	      <input type="submit" value="Add to Schedule">
+	    </div>
+		
+		<h2>Add Using Course Numbers</h2>
+		<p>Please select the course name, number, and section of the class you wish to add and press submit.</p>
+		 <fieldset id= "CourseIndepth">
+		  <p>
+		    <select name="courseName">
+			  <option value="" disabled selected>Select course subject</option>
+              <option value="BIO">Biology</option>
+              <option value="CS">Computer Science</option>
+			  <option value="ITM">Information Technology and Management</option>
+			  <option value="MATH">Math</option>
+			</select>
+			<select name="courseNumb">
+			  <option value="" disabled selected>Select course number</option>
+              <option value="300">300</option>
+              <option value="350">350</option>
+			  <option value="400">400</option>
+			</select>
+			<select name="sectionNumb">
+			  <option value="" disabled selected>Select course section</option>
+              <option value="01">01</option>
+              <option value="02">02</option>
+			</select>
+		  </p>
+		</fieldset>
+		<div id= "button2">
+	      <input type="submit" value="Add to Schedule">
+	    </div>
+		<h2>Drop Classes</h2>
+		<p>Use the dropdown menu next to the class if you wish to drop it.</p>
+		 <fieldset id= "Dropping">
+		  <p>BIO 300-02 - Intro to Random Biology 
+		    <select name="Drop">
+			  <option value="" disabled selected>Select course of action</option>
+              <option value="Drop">Drop Class</option>
+			</select>
+		  </p>
+		  <p>ITM 400-01 - Something with Networking
+		    <select name="Drop">
+			  <option value="" disabled selected>Select course of action</option>
+              <option value="Drop">Drop Class</option>
+			</select>
+		  </p>
+		  <p>MATH 350-01 - Addition
+		    <select name="Drop">
+			  <option value="" disabled selected>Select course of action</option>
+              <option value="Drop">Drop Class</option>
+			</select>
+		  </p>
+		</fieldset>
+		<div id= "button3">
+	      <input type="submit" value="Save changes">
+	    </div>
+	  </form>	
+    <footer>
+      <img class="floatleft" src="media/decorbanner.png" alt="decorbanner">
+      <div id="contactbox">
+        <img class="floatleft" src="media/semitranslogogray.png" alt="semitranslogogray">
+        <p id="iitfauxlogo">Illinois Institute of Technology</p>
+      </div>
+    </footer>
+  </body>
+</html>

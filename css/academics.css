@@ -124,8 +124,8 @@ tbody tr:nth-child(even){
   text-align: center;
   padding-left: 5%;
   padding-right: 5%;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 1em;
+  padding-bottom: 1em;
   font-size: 1.4em;
   overflow: hidden;
   white-space: nowrap;
@@ -139,6 +139,8 @@ tbody tr:nth-child(even){
 #navlist a:hover {
   background-color: black;
   color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 #uname {
@@ -164,4 +166,22 @@ tbody tr:nth-child(even){
 
 #ablist {
   text-decoration: none;
+}
+
+#userbar {
+  display: inline-block;
+  background-color: #ac1e1d;
+  width: 100%;
+}
+
+#ubinfo {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#ubinfo li {
+  display: inline;
+  color: #FFFFFF;
+  font-size: .9em;
 }

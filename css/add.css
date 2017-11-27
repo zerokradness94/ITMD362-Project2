@@ -84,11 +84,6 @@ textarea:focus, input:focus{
   text-align: center;
 }
 
-#navlist a.active {
-  background-color: black;
-  color: white;
-}
-
 #navlist {
   padding: 0;
 }

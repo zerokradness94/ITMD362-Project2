@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no"/>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" media="screen" href="css/normalize.css" />
+    <link rel="stylesheet" media="screen" href="css/home.css" />
     <link rel="stylesheet" media="screen" href="css/pin.css" />
     <script src="js/pinscripts.js"></script>
   </head>
@@ -13,6 +14,21 @@
     <header>
       <img src="media/iitbannertext.png" alt="IIT Banner">
     </header>
+    <nav id="navbar">
+        <ul id="navlist">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="webApps.html">Web Apps</a></li>
+            <li><a href="login.html">Logout</a></li>
+        </ul>
+    </nav>
+    <div id="userbar">
+        <ul id="ubinfo">
+            <li id="uname">uname4</li>
+            <li id="cwid">CWID: A1234567890</li>
+        </ul>
+    </div>
     <form name="pinterm" id="pinterm" action="#null" autocomplete="on">
       <h1>Registration Term</h1>
       <p id="pterm">Please select a term</p>
@@ -29,6 +45,9 @@
       <fieldset>
         <p><label>PIN: <input type="number" name="pin"></label></p>
       </fieldset>
+	  <div id= "button">
+        <a href="AddDrop.html">Next</a>
+	  </div>
     </form>
     <footer>
       <img class="floatleft" src="media/decorbanner.png" alt="IIT Decor Banner">

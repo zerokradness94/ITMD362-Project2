@@ -1,12 +1,11 @@
 /* Universal CSS */
 html {
   font-family: 'Lato', 'Century Gothic', 'Arial', sans-serif;
-  font-color: #FFF;
 }
 
 header {
   background-color: #000;
-  color: #FFF;
+  color: #FFFFFF;
   height: 35px;
   width: 100%;
 }
@@ -70,10 +69,89 @@ textarea:focus, input:focus{
   font-family: 'Century Gothic', sans-serif;
   font-size: 1.3em;
   font-size: 1.4em;
-  color: #FFF;
+  color: #FFFFFF;
   line-height:0.1em;
   margin-left: 0.4em;
   margin-top: 0.75em;
   margin-bottom: 0.7em;
   text-transform: uppercase;
+}
+
+#navbar {
+  display: inline-block;
+  background-color: #ac1e1d;
+  width: 100%;
+  text-align: center;
+}
+
+#navlist {
+  padding: 0;
+}
+
+#navlist a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 1.4em;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#navlist li {
+  display: inline;
+  margin: 0;
+}
+
+#navlist a:hover {
+  background-color: black;
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#uname {
+  padding-left: 2%;
+  float: left;
+}
+
+#cwid {
+  padding-right: 2%;
+  float: right;
+}
+
+#floatboxes {
+  width: 100%;
+}
+
+#actionbox {
+  background-color: #CFCFCF;
+  float: left;
+  padding-right: 5%;
+  text-decoration: none;
+}
+
+#ablist {
+  text-decoration: none;
+}
+
+#userbar {
+  display: inline-block;
+  background-color: #ac1e1d;
+  width: 100%;
+}
+
+#ubinfo {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#ubinfo li {
+  display: inline;
+  color: #FFFFFF;
+  font-size: .9em;
 }

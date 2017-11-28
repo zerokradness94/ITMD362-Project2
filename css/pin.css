@@ -1,12 +1,11 @@
 /* Universal CSS */
 html {
   font-family: 'Lato', 'Century Gothic', 'Arial', sans-serif;
-  font-color: #FFF;
 }
 
 header {
   background-color: #000;
-  color: #FFF;
+  color: #FFFFFF;
   height: 35px;
   width: 100%;
 }
@@ -32,6 +31,15 @@ h1 {
 form {
   display: block;
   text-align: center;
+}
+
+#button {
+    width: 6em;
+    border: 2px solid black;
+    border-radius: 5px;
+	text-align:center;
+	display:block;
+	margin:auto;
 }
 
 a:link, a:visited {
@@ -70,12 +78,11 @@ textarea:focus, input:focus{
   font-family: 'Century Gothic', sans-serif;
   font-size: 1.3em;
   font-size: 1.4em;
-  color: #FFF;
+  color: #FFFFFF;
   line-height:0.1em;
   margin-left: 0.4em;
   margin-top: 0.75em;
   margin-bottom: 0.7em;
   text-transform: uppercase;
 }
-.html
-/*CSS specific to pinlogin*/
+/*.htmlCSS specific to pinlogin*/

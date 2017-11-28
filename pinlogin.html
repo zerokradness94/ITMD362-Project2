@@ -30,7 +30,7 @@
             <li id="cwid">CWID: A1234567890</li>
         </ul>
     </div>
-    <form name="pinterm" id="pinterm" action="#null" autocomplete="on">
+    <form name="pinterm" id="pinterm" action="AddDrop.html" autocomplete="on">
       <h1>Registration Term</h1>
       <p id="pterm">Please select a term</p>
       <fieldset>
@@ -40,15 +40,13 @@
           <option value="fall17">Fall 2017</option>
           <option value="summer17">Summer 2017</option>
         </select>
-      </fieldset>
       <h1>Alternate Pin</h1>
       <p id="ppin">Please enter your Alternate Pin provided to you by your advisor</p>
-      <fieldset>
         <p><label>PIN: <input type="number" name="pin"></label></p>
+        <div id= "button">
+            <input type="submit" id="sub" value="Submit">
+    	  </div>
       </fieldset>
-	  <div id= "button">
-        <a href="AddDrop.html">Next</a>
-	  </div>
     </form>
     <footer>
       <img class="floatleft" src="media/decorbanner.png" alt="IIT Decor Banner">

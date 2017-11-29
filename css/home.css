@@ -60,45 +60,38 @@ h1 {
 
 /* Navbar CSS */
 
-#navbar {
-  display: inline-block;
-  background-color: #ac1e1d;
-  width: 100%;
-  text-align: center;
-}
-
-#navlist a.active {
+#navbar a.active {
   background-color: black;
   color: white;
 }
 
-#navlist {
-  padding: 0;
-}
-
-#navlist a {
+#navbar a {
+  display: inline-block;
   text-decoration: none;
+  background-color: #ac1e1d;
   color: white;
+  padding-top: .5em;
+  padding-bottom: .5em;
   text-align: center;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  font-size: 1.4em;
-  overflow: hidden;
+  font-size: 1.8em;
+  width: 20.07%;
   white-space: nowrap;
 }
-
-#navlist li {
-  display: inline;
+#navlist {
+  overflow: hidden;
+  padding: 0;
   margin: 0;
 }
+#navlist li {
+  display: inline;
+  list-style-type: none;
+  color: #ac1e1d;
+  margin-right: -.3em;
+}
 
-#navlist a:hover {
+#navbar a:hover {
   background-color: black;
   color: white;
-  padding-top: 1em;
-  padding-bottom: 1em;
 }
 
 #uname {
@@ -110,6 +103,8 @@ h1 {
   padding-right: 2%;
   float: right;
 }
+
+/*=======+++========*/
 
 #floatboxes {
   width: 100%;

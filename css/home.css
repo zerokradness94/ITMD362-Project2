@@ -107,14 +107,38 @@ h1 {
 /*=======+++========*/
 
 #floatboxes {
-  width: 100%;
+  display: flex;
 }
 
+#leftbox {
+  float: left;
+  width: 50%;
+  padding: 8%;
+  background-color: white;
+}
+
+#rightbox {
+  float: right;
+  padding: 8%;
+  width: 50%;
+  background-color: white;
+}
 #actionbox {
   background-color: #CFCFCF;
-  float: left;
-  padding-right: 5%;
+  padding-left: 10%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+  padding-top: 5%;
   text-decoration: none;
+}
+
+#infobox {
+  background-color: #CFCFCF;
+  text-decoration: none;
+  padding-left: 10%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+  padding-top: 5%;
 }
 
 #ablist {

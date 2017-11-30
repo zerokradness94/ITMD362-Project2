@@ -1,37 +1,4 @@
-/* Universal CSS */
-html {
-  font-family: 'Lato', 'Century Gothic', 'Arial', sans-serif;
-}
-
-header {
-  background-color: #000;
-  color: #FFFFFF;
-  height: 35px;
-  width: 100%;
-}
-
-header img {
-  padding-left: 4.5em;
-}
-
-footer {
-  background-color: #ac1e1d;
-  height: 95px;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-}
-
-h1 {
-  font-weight: 900;
-  font-size: 3.2em;
-  line-height: 0.2em;
-}
-
-form {
-  display: block;
-  text-align: center;
-}
+/*.htmlCSS specific to pinlogin*/
 
 input[type=text] {
     padding:5px;
@@ -66,43 +33,3 @@ a:link, a:visited {
   color: #000;
   font-weight: 700;
 }
-
-a:hover {
-  font-weight: 900;
-}
-
-textarea:focus, input:focus{
-    outline: none;
-}
-
-.floatleft {
-  float: left;
-}
-
-.floatright {
-  float: right;
-}
-
-#contactbox {
-  background-image: url(media/semitranslogogray.png);
-  padding-right: 7em;
-  padding-left: 1em;
-  padding-top:0.8em;
-  width: 30em;
-  float: right;
-  text-align: center;
-  clear: right;
-}
-
-#iitfauxlogo {
-  font-family: 'Century Gothic', sans-serif;
-  font-size: 1.3em;
-  font-size: 1.4em;
-  color: #FFFFFF;
-  line-height:0.1em;
-  margin-left: 0.4em;
-  margin-top: 0.75em;
-  margin-bottom: 0.7em;
-  text-transform: uppercase;
-}
-/*.htmlCSS specific to pinlogin*/

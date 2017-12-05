@@ -125,14 +125,31 @@ textarea:focus, input:focus{
   font-size: .9em;
 }
 
+body {
+  margin: 0px;
+}
+html, body {
+  height: 100%;
+}
+#content {
+  min-height: 100%;
+  margin-bottom: -5.9em;
+}
 
+#content:after{
+  content: "";
+  display: block;
+}
 /* Footer CSS */
+footer, #content:after {
+  height: 5.9em; 
+}
 footer {
-  background-color: #ac1e1d;
-  height: 5.9em;
-  width: 100%;
   position: fixed;
+  width: 100%;
   bottom: 0;
+  left: 0;
+  background-color: #ac1e1d;
 }
 
 #contactbox {

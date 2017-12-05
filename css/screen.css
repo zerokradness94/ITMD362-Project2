@@ -47,6 +47,8 @@ textarea:focus, input:focus{
 }
 
 /* Navbar CSS */
+
+@media screen and (min-width: 670px) {
 #navbar a.active {
   background-color: black;
   color: white;
@@ -79,6 +81,7 @@ textarea:focus, input:focus{
 #navbar a:hover {
   background-color: black;
   color: white;
+}
 }
 
 #uname {

@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no"/>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" media="screen" href="css/normalize.css" />
-    <link rel="stylesheet" media="screen" href="css/home.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/screen.css"/>
     <link rel="stylesheet" media="screen" href="css/pin.css" />
-    <script src="js/pinscripts.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/pin.js"></script>
   </head>
   <body>
     <header>
@@ -29,7 +30,7 @@
             <li id="cwid">CWID: A1234567890</li>
         </ul>
     </div>
-    <form name="pinterm" id="pinterm" action="#null" autocomplete="on">
+    <form name="pinterm" id="pinterm" action="AddDrop.html" autocomplete="on">
       <h1>Registration Term</h1>
       <p id="pterm">Please select a term</p>
       <fieldset>
@@ -39,21 +40,23 @@
           <option value="fall17">Fall 2017</option>
           <option value="summer17">Summer 2017</option>
         </select>
-      </fieldset>
       <h1>Alternate Pin</h1>
       <p id="ppin">Please enter your Alternate Pin provided to you by your advisor</p>
-      <fieldset>
         <p><label>PIN: <input type="number" name="pin"></label></p>
+        <div id= "button">
+            <input type="submit" id="sub" value="Submit">
+    	  </div>
       </fieldset>
-	  <div id= "button">
-        <a href="AddDrop.html">Next</a>
-	  </div>
     </form>
     <footer>
-      <img class="floatleft" src="media/decorbanner.png" alt="IIT Decor Banner">
+      <img class="floatleft" src="media/decorbanner.png" alt="decorbanner">
       <div id="contactbox">
-        <img class="floatleft" src="media/semitranslogogray.png" alt="Translucent IIT Logo">
+        <img class="floatleft" src="media/semitranslogogray.png" alt="logo">
         <p id="iitfauxlogo">Illinois Institute of Technology</p>
+        <a href="http://www.iit.edu">Home</a>  &#9474;
+        <a href="http://www.iit.edu">Maps</a>  &#9474;
+        <a href="http://www.iit.edu">Terms of Use</a>  &#9474;
+        <a href="http://www.iit.edu">Emergency Info</a>
       </div>
     </footer>
   </body>

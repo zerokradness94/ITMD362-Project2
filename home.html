@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no"/>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/screen.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="css/home.css"/>
+    <script type="text/javascript" src="js/myscript.js"></script>
 </head>
 <body>
     <header>
         <img src="media/iitbannertext.png" alt="banner">
     </header>
-    <main id="content">
+    <div id="nav">
         <nav id="navbar">
             <ul id="navlist">
                 <li><a href="home.html" class="active">Home</a></li>
@@ -22,27 +24,33 @@
                 <li><a href="login.html">Logout</a></li>
             </ul>
         </nav>
+    </div>
+    <main id="content">
         <div id="userbar">
             <ul id="ubinfo">
                 <li id="uname">uname4</li>
-                <li id="cwid">CWID: A1234567890</li>
+                <li id="cwid"></li>
             </ul>
         </div>
         <div id="floatboxes">
-            <div id="actionbox">
-                <ul id="ablist">
-                    <li>Add/Drop A class</li>
-                    <li>Lookup Classes</li>
-                    <li>Degree works</li>
-                    <li>Make an Advising Appointment</li>
-                </ul>
+            <div id="leftbox">
+                <div id="actionbox">
+                    <ul id="ablist">
+                        <li>Add/Drop A class</li>
+                        <li>Lookup Classes</li>
+                        <li>Degree works</li>
+                        <li>Make an Advising Appointment</li>
+                    </ul>
+                </div>
             </div>
-            <div id="infobox">
-                <ul id="iblist">
-                    <li>your primary advisor is: </li>
-                    <li>Academic standing: </li>
-                    <li>GPA: </li>
-                </ul>
+            <div id="rightbox">
+                <div id="infobox">
+                    <ul id="iblist">
+                        <li>your primary advisor is: </li>
+                        <li>Academic standing: </li>
+                        <li>GPA: </li>
+                    </ul>
+                </div>
             </div>
         </div>
         <footer>

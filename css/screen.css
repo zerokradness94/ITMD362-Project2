@@ -14,14 +14,6 @@ header img {
   padding-left: 4.5em;
 }
 
-footer {
-  background-color: #ac1e1d;
-  height: 95px;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-}
-
 h1 {
   font-weight: 900;
   font-size: 3.2em;
@@ -54,79 +46,101 @@ textarea:focus, input:focus{
   float: right;
 }
 
-
-/* Login page specific CSS */
-.logblock label {
-  display: block;
-  text-align: left;
-  font-size: 1.5em;
-  padding-left: 1.1em;
-}
-
-#logwrap {
-  width: 52.2em;
-  margin: 0 auto;
-  padding-top: 3.4em;
-  padding-right: 6.2em;
-}
-
-#formbox {
-  background-color: #CFCFCF;
-  padding: 1.2em;
-  padding-bottom: 2.1em; 
-  padding-top: 2.1em;
-  width: 32em;
-  height: 21.5em;
-}
-
-#logtitle {
-  font-weight: 900;
-  font-size: 3.5em;
-  padding: 0em;
-  line-height: 0.2em;
-  clear: right;
-}
-
-#inputUname, #inputPasswd {
-  width: 92%;
-  padding: 0.1em 0.4em;
-  border-radius: 0.55em;
-  margin-bottom: 0.9em;
-  border: 2px solid #acacac;
-  height: 2.5em;
-}
-
-#loginButton {
-  padding: 0.5em 0.5em;
-  background: #ac1e1d;
-  font-size: 1.5em;
-  font-weight: 700;
-  border: none;
-  height: 2.6em;
-  border-radius: 0.55em;
+/* Navbar CSS */
+#navbar a.active {
+  background-color: black;
   color: white;
-  width: 92%;
-  margin: 0.9em;
 }
 
-#forgot a:link, a:visited {
-  font-size: 1.2em;
+#navbar a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #ac1e1d;
+  color: white;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  text-align: center;
+  font-size: 1.8em;
+  width: 20.07%;
+  white-space: nowrap;
+}
+#navlist {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+#navlist li {
+  display: inline;
+  list-style-type: none;
+  color: #ac1e1d;
+  margin-right: -.3em;
 }
 
-#forgot a:hover {
-  font-weight: 900;
+#navbar a:hover {
+  background-color: black;
+  color: white;
 }
 
-#relatedlinks {
-  float: right; 
+#uname {
+  padding-left: 2%;
+  float: left;
+}
+
+#cwid {
+  padding-right: 2%;
+  float: right;
+}
+
+
+#floatboxes {
+  width: 100%;
+}
+
+#actionbox {
+  background-color: #CFCFCF;
+  float: left;
+  padding-right: 5%;
+  text-decoration: none;
+}
+
+#ablist {
+  text-decoration: none;
+}
+
+#userbar {
+  display: inline-block;
+  background-color: #ac1e1d;
+  width: 100%;
+}
+
+#ubinfo {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#ubinfo li {
+  display: inline;
+  color: #FFFFFF;
+  font-size: .9em;
+}
+
+
+/* Footer CSS */
+footer {
+  background-color: #ac1e1d;
+  height: 5.9em;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
 }
 
 #contactbox {
   background-image: url(media/semitranslogogray.png);
   padding-right: 7em;
   padding-left: 1em;
-  padding-top:0.8em;
-  width: 30em;
+  padding-top: 0.8em;
+  width: 29em;
   float: right;
   text-align: center;
   clear: right;
@@ -134,10 +148,9 @@ textarea:focus, input:focus{
 
 #iitfauxlogo {
   font-family: 'Century Gothic', sans-serif;
-  font-size: 1.3em;
-  font-size: 1.4em;
+  font-size: 120%;
   color: #FFF;
-  line-height:0.1em;
+  line-height:0.2em;
   margin-left: 0.4em;
   margin-top: 0.75em;
   margin-bottom: 0.7em;

@@ -22,7 +22,7 @@ h1 {
 
 form {
   display: block;
-  text-align: center; 
+  text-align: center;
 }
 
 a:link, a:visited {
@@ -145,7 +145,7 @@ html, body {
 }
 /* Footer CSS */
 footer, #content:after {
-  height: 5.9em; 
+  height: 5.9em;
 }
 footer {
   position: fixed;
@@ -175,4 +175,191 @@ footer {
   margin-top: 0.75em;
   margin-bottom: 0.7em;
   text-transform: uppercase;
+}
+
+/*.htmlCSS specific to pinlogin*/
+
+input[type=text] {
+    padding:5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+input[type=submit] {
+    padding:5px 15px;
+    background:#fff;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#button {
+    width: 6em;
+    border: 2px solid black;
+    border-radius: 5px;
+	text-align:center;
+	display:block;
+  background:#fff;
+	margin:auto;
+}
+
+a:link, a:visited {
+  color: #000;
+  font-weight: 700;
+}
+
+/* Login page specific CSS */
+.logblock label {
+  display: block;
+  text-align: left;
+  font-size: 1.5em;
+  padding-left: 1.1em;
+}
+
+#logwrap {
+  width: 35em;
+  margin: 0 auto;
+  padding-top: 3.4em;
+}
+
+#formbox {
+  background-color: #CFCFCF;
+  padding: 1.2em;
+  padding-bottom: 2.1em;
+  padding-top: 2.1em;
+  width: 32em;
+  height: 21.5em;
+  margin: 0 auto;
+}
+
+#logtitle {
+  font-weight: 900;
+  font-size: 3.5em;
+  padding: 0em;
+  line-height: 0.2em;
+  clear: right;
+}
+
+#inputUname, #inputPasswd {
+  width: 92%;
+  padding: 0.1em 0.4em;
+  border-radius: 0.55em;
+  margin-bottom: 0.9em;
+  border: 2px solid #acacac;
+  height: 2.5em;
+}
+
+#loginButton {
+  padding: 0.5em 0.5em;
+  background: #ac1e1d;
+  font-size: 1.5em;
+  font-weight: 700;
+  border: none;
+  height: 2.6em;
+  border-radius: 0.55em;
+  color: white;
+  width: 92%;
+  margin: 0.9em;
+}
+
+#forgot a:link, a:visited {
+  font-size: 1.2em;
+}
+
+#forgot a:hover {
+  font-weight: 900;
+}
+
+/* Homepage specific CSS */
+
+#floatboxes {
+  display: flex;
+}
+
+#leftbox {
+  float: left;
+  width: 50%;
+  padding: 8%;
+  background-color: white;
+}
+
+#rightbox {
+  float: right;
+  padding: 8%;
+  width: 50%;
+  background-color: white;
+}
+#actionbox {
+  border-radius: 25px;
+  background-color: #CFCFCF;
+  padding-left: 10%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  text-decoration: none;
+}
+
+#infobox {
+  border-radius: 25px;
+  background-color: #CFCFCF;
+  text-decoration: none;
+  padding-left: 10%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+#ablist {
+  text-decoration: none;
+}
+
+/*=== academics =====*/
+.container {
+  width: 690px;
+	margin: 0 auto;
+	padding: 5px;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+
+}
+
+#links a {
+  display: block;
+  clear:left;
+}
+
+.headlines {
+  display: inline;
+
+}
+
+#tabletitle {
+  font-weight: 800;
+  color: #dc143c;
+
+}
+
+#courses {
+  font-size: .9em;
+  width: 400px;
+}
+
+#courses th,td {
+  max-width: 125px;
+  padding: 3px;
+}
+
+tbody tr:nth-child(even){
+  background-color: #e6e6e6;
+}
+
+#currentsem {
+  font-style: italic;
+  font-size: 75%;
 }

@@ -1,125 +1,40 @@
-/* Universal CSS */
-html {
-  font-family: 'Lato', 'Century Gothic', 'Arial', sans-serif;
-}
-
-header {
-  background-color: #000;
-  color: #ffffff;
-  height: 35px;
-  width: 100%;
-}
-
-header img {
-  padding-left: 4.5em;
-}
-
-footer {
-  background-color: #ac1e1d;
-  height: 95px;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-}
-
-h1 {
-  font-weight: 900;
-  font-size: 3.2em;
-  line-height: 0.2em;
-}
-
-.floatleft {
-  float: left;
-}
-
-.floatright {
-  float: right;
-}
-
-
-
-
 /* Homepage specific CSS */
-#userbar {
-  display: inline-block;
-  background-color: #ac1e1d;
-  width: 100%;
-}
-
-#ubinfo {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-#ubinfo li {
-  display: inline;
-  color: #FFFFFF;
-  font-size: .9em;
-}
-
-/* Navbar CSS */
-
-#navbar {
-  display: inline-block;
-  background-color: #ac1e1d;
-  width: 100%;
-  text-align: center;
-}
-
-#navlist a.active {
-  background-color: black;
-  color: white;
-}
-
-#navlist {
-  padding: 0;
-}
-
-#navlist a {
-  text-decoration: none;
-  color: white;
-  text-align: center;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  font-size: 1.4em;
-  overflow: hidden;
-  white-space: nowrap;
-}
-
-#navlist li {
-  display: inline;
-  margin: 0;
-}
-
-#navlist a:hover {
-  background-color: black;
-  color: white;
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-
-#uname {
-  padding-left: 2%;
-  float: left;
-}
-
-#cwid {
-  padding-right: 2%;
-  float: right;
-}
 
 #floatboxes {
-  width: 100%;
+  display: flex;
 }
 
-#actionbox {
-  background-color: #CFCFCF;
+#leftbox {
   float: left;
-  padding-right: 5%;
+  width: 50%;
+  padding: 8%;
+  background-color: white;
+}
+
+#rightbox {
+  float: right;
+  padding: 8%;
+  width: 50%;
+  background-color: white;
+}
+#actionbox {
+  border-radius: 25px;
+  background-color: #CFCFCF;
+  padding-left: 10%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+  padding-top: 5%;
   text-decoration: none;
+}
+
+#infobox {
+  border-radius: 25px;
+  background-color: #CFCFCF;
+  text-decoration: none;
+  padding-left: 10%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+  padding-top: 5%;
 }
 
 #ablist {

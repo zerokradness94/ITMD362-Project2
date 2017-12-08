@@ -194,20 +194,11 @@ input[type=submit] {
     margin-top: 5px;
     background:#fff;
     border:0 none;
+    text-align: center;
     cursor:pointer;
-    border: 2px solid black;
     border: 2px solid black;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-}
-
-#button {
-    width: 6em;
-    border-radius: 5px;
-	text-align:center;
-	display:block;
-  background:#fff;
-	margin:auto;
 }
 
 a:link, a:visited {

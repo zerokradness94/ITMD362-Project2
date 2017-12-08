@@ -29,7 +29,7 @@
       </ul>
     </div>
 	<div id="content">
-	  <form name="AddDrop">
+	  <form name="AddDrop" autocomplete="on" onsubmit="return buttonSuccess()">
 	    <h1>Add Or Drop Classes</h1>
 		<h2>Add Using CRN Numbers</h2>
 		<p>Please enter the CRN number of the classes you wish to add and press submit.</p>
@@ -44,9 +44,11 @@
 		  </p>
 		</fieldset>
 		<div id= "button">
-	      <input type="submit" value="Add to Schedule">
+	      <input type="submit" value="Add to Schedule" onclick="buttonSuccess(); return false">
 	    </div>
-
+	  </form>
+	  
+	  <form name="AddDrop2">
 		<h2>Add Using Course Numbers</h2>
 		<p>Please select the course name, number, and section of the class you wish to add and press submit.</p>
 		 <fieldset id= "CourseIndepth">
@@ -72,8 +74,11 @@
 		  </p>
 		</fieldset>
 		<div id= "button2">
-	      <input type="submit" value="Add to Schedule">
+	      <input type="submit" value="Add to Schedule2" onclick="buttonSuccess2()">
 	    </div>
+	  </form>
+	  
+	  <form name="Drop">
 		<h2>Drop Classes</h2>
 		<p>Use the dropdown menu next to the class if you wish to drop it.</p>
 		 <fieldset id= "Dropping">
@@ -97,7 +102,7 @@
 		  </p>
 		</fieldset>
 		<div id= "button3">
-	      <input type="submit" value="Save changes">
+	      <input type="submit" value="Save changes" onclick="buttonSuccess3()">
 	    </div>
 	  </form>
 	</div>

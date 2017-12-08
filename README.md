@@ -6,4 +6,4 @@ Analyzing a website and creating a newly designed one based on it helped me unde
 
 # Group Member Critique
 
-Everyone definitely put a lot of work into this project. We first split the work where one person did a specific page which also included the css and javascript. Sara focused on the login page, Chris focused on the academics page, Ian focused on the home page, Jacob focused on the pin page, and I focused on the add/drop page. In addition to this, everyone helped each other out and made changes to each other's page.
+Everyone definitely put a lot of work into this project. We first split the work where each person did a specific page which also included the css and javascript. Sara focused on the login page, Chris focused on the academics page, Ian focused on the home page, Jacob focused on the pin page, and I focused on the add/drop page. In addition to this, everyone helped each other out and made changes to each other's page.

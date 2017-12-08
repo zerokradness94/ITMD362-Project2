@@ -188,10 +188,13 @@ textarea:focus, input:focus{
   footer {
     position: fixed;
     width: 100%;
+    bottom: 0;
+    left: 0;
     background-color: #ac1e1d;
   }
 
   #contactbox {
+    display: none;
     background-image: url(media/semitranslogogray.png);
     padding-right: 1em;
     padding-left: 1em;
@@ -202,6 +205,7 @@ textarea:focus, input:focus{
   }
 
   #iitfauxlogo {
+    display: none;
     font-family: 'Century Gothic', sans-serif;
     font-size: 120%;
     color: #FFF;

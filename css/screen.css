@@ -181,8 +181,9 @@ textarea:focus, input:focus{
   }
 
   /* Footer CSS */
+@media screen and (min-width: 760px) {
   footer, #content:after {
-    height: 5.9em;
+    height: 5.1em;
   }
 
   footer {
@@ -201,7 +202,7 @@ textarea:focus, input:focus{
     width: 29em;
     float: right;
     text-align: center;
-    clear: right;
+
   }
 
   #iitfauxlogo {
@@ -214,6 +215,40 @@ textarea:focus, input:focus{
     margin-bottom: 0.7em;
     text-transform: uppercase;
   }
+}
+
+@media screen and (max-width: 759px) {
+  footer, #content:after {
+    height: 5.1em;
+  }
+
+  footer {
+    position: fixed;
+    width: 100%;
+    background-color: #ac1e1d;
+  }
+
+  #contactbox {
+    background-image: url(media/semitranslogogray.png);
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 0.8em;
+    width: 29em;
+    display: inline-block;
+    text-align: center;
+  }
+
+  #iitfauxlogo {
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 120%;
+    color: #FFF;
+    line-height: 0.2em;
+    margin-left: 0.4em;
+    margin-top: 0.75em;
+    margin-bottom: 0.7em;
+    text-transform: uppercase;
+  }
+}
 
   /*.htmlCSS specific to pinlogin*/
   input[type=text] {
@@ -242,6 +277,8 @@ textarea:focus, input:focus{
     color: #000;
     font-weight: 700;
   }
+
+
 
   /* Login page specific CSS */
   .logblock label {

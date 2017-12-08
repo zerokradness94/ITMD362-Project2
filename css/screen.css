@@ -35,7 +35,7 @@ a:hover {
 }
 
 textarea:focus, input:focus{
-    outline: none;
+  outline: none;
 }
 
 .floatleft {
@@ -93,7 +93,6 @@ textarea:focus, input:focus{
   padding-right: 2%;
   float: right;
 }
-
 
 #floatboxes {
   width: 100%;
@@ -180,25 +179,25 @@ footer {
 /*.htmlCSS specific to pinlogin*/
 
 input[type=text] {
-    padding:5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
+  padding:5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
 input[type=text]:focus {
-    border-color:#333;
+  border-color:#333;
 }
 
 input[type=submit] {
-    padding:5px 15px;
-    margin-top: 5px;
-    background:#fff;
-    border:0 none;
-    text-align: center;
-    cursor:pointer;
-    border: 2px solid black;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
+  padding:5px 15px;
+  margin-top: 5px;
+  background:#fff;
+  border:0 none;
+  text-align: center;
+  cursor:pointer;
+  border: 2px solid black;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
 a:link, a:visited {
@@ -314,11 +313,11 @@ a:link, a:visited {
 /*=== academics =====*/
 .container {
   width: 690px;
-	margin: 0 auto;
-	padding: 5px;
-	overflow: hidden;
-	position: relative;
-	z-index: 1;
+  margin: 0 auto;
+  padding: 5px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
 
 }
 

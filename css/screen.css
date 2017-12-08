@@ -216,7 +216,6 @@ textarea:focus, input:focus{
   /*.htmlCSS specific to pinlogin*/
   input[type=text] {
     padding: 5px;
-    -webkit-border-radius: 5px;
     border-radius: 5px;
   }
 
@@ -232,7 +231,6 @@ textarea:focus, input:focus{
     text-align: center;
     cursor: pointer;
     border: 2px solid black;
-    -webkit-border-radius: 5px;
     border-radius: 5px;
   }
 

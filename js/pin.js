@@ -8,6 +8,6 @@ function validateForm(event) {
     event.preventDefault();
   }
   else {
-    document.location.href = '../AddDrop.html';
+    document.location.href = '../adddrop.html';
   }
 }

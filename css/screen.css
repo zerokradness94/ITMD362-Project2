@@ -82,43 +82,24 @@ textarea:focus, input:focus{
     background-color: black;
     color: white;
   }
-}
 
-@media screen and (max-width: 759px) {
-  #navbar a.active {
-    background-color: black;
-    color: white;
-  }
-
-  #navbar a {
-    display: block;
-    text-decoration: none;
+  #userbar {
+    display: inline-block;
     background-color: #ac1e1d;
-    color: white;
-    padding-top: .5em;
-    padding-bottom: .5em;
-    text-align: center;
-    font-size: 1.8em;
-    white-space: nowrap;
+    width: 100%;
   }
 
-  #navlist {
-    overflow: hidden;
+  #ubinfo {
+    list-style-type: none;
     padding: 0;
     margin: 0;
   }
 
-  #navlist li {
-    list-style-type: none;
-    color: #ac1e1d;
+  #ubinfo li {
+    display: inline;
+    color: #FFFFFF;
+    font-size: .9em;
   }
-
-  #navbar a:hover {
-    background-color: black;
-    color: white;
-  }
-}
-
   #uname {
     padding-left: 2%;
     float: left;
@@ -142,24 +123,6 @@ textarea:focus, input:focus{
 
   #ablist {
     text-decoration: none;
-  }
-
-  #userbar {
-    display: inline-block;
-    background-color: #ac1e1d;
-    width: 100%;
-  }
-
-  #ubinfo {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  #ubinfo li {
-    display: inline;
-    color: #FFFFFF;
-    font-size: .9em;
   }
 
   body {
@@ -434,4 +397,71 @@ textarea:focus, input:focus{
   #button1 {
     text-align: center;
   }
+
+}
+
+@media screen and (max-width: 759px) {
+  #navbar a.active {
+    background-color: black;
+    color: white;
+  }
+
+  #navbar a {
+    display: block;
+    text-decoration: none;
+    background-color: #ac1e1d;
+    color: white;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    text-align: center;
+    font-size: 1.8em;
+    white-space: nowrap;
+  }
+
+  #navlist {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
+
+  #navlist li {
+    list-style-type: none;
+    color: #ac1e1d;
+  }
+
+  #navbar a:hover {
+    background-color: black;
+    color: white;
+  }
+
+  #userbar {
+    display: block;
+    background-color: #ac1e1d;
+    width: 100%;
+  }
+
+  #ubinfo {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #ubinfo li {
+    display: block;
+    color: #FFFFFF;
+    font-size: .9em;
+  }
+
+  #uname {
+    padding-left: 2%;
+    float: left;
+  }
+
+  #cwid {
+    padding-right: 2%;
+    float: right;
+  }
+}
+
+
 

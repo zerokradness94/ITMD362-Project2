@@ -48,314 +48,417 @@ textarea:focus, input:focus{
 
 /* Navbar CSS */
 
-@media screen and (min-width: 670px) {
-#navbar a.active {
-  background-color: black;
-  color: white;
+@media screen and (min-width: 760px) {
+  #navbar a.active {
+    background-color: black;
+    color: white;
+  }
+
+  #navbar a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ac1e1d;
+    color: white;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    text-align: center;
+    font-size: 1.8em;
+    width: 20.07%;
+    white-space: nowrap;
+  }
+  #navlist {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
+  #navlist li {
+    display: inline;
+    list-style-type: none;
+    color: #ac1e1d;
+    margin-right: -.3em;
+  }
+
+  #navbar a:hover {
+    background-color: black;
+    color: white;
+  }
+
+  #userbar {
+    display: inline-block;
+    background-color: #ac1e1d;
+    width: 100%;
+  }
+
+  #ubinfo {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #ubinfo li {
+    display: inline;
+    color: #FFFFFF;
+    font-size: .9em;
+  }
+  #uname {
+    padding-left: 2%;
+    float: left;
+  }
+
+  #cwid {
+    padding-right: 2%;
+    float: right;
+  }
+
+  #floatboxes {
+    width: 100%;
+  }
+
+  #actionbox {
+    background-color: #CFCFCF;
+    float: left;
+    padding-right: 5%;
+    text-decoration: none;
+  }
+
+  #ablist {
+    text-decoration: none;
+  }
+
+  body {
+    margin: 0px;
+  }
+
+  html, body {
+    height: 100%;
+  }
+
+  #content {
+    min-height: 100%;
+    margin-bottom: -5.9em;
+  }
+
+  #content:after {
+    content: "";
+    display: block;
+  }
+}
+  /* Footer CSS */
+@media screen and (min-width: 760px) {
+  footer, #content:after {
+    height: 5.1em;
+  }
+
+  footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #ac1e1d;
+  }
+
+  #contactbox {
+    background-image: url(media/semitranslogogray.png);
+    padding-right: 7em;
+    padding-left: 1em;
+    padding-top: 0.8em;
+    width: 29em;
+    float: right;
+    text-align: center;
+
+  }
+
+  #iitfauxlogo {
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 120%;
+    color: #FFF;
+    line-height: 0.2em;
+    margin-left: 0.4em;
+    margin-top: 0.75em;
+    margin-bottom: 0.7em;
+    text-transform: uppercase;
+  }
 }
 
-#navbar a {
-  display: inline-block;
-  text-decoration: none;
-  background-color: #ac1e1d;
-  color: white;
-  padding-top: .5em;
-  padding-bottom: .5em;
-  text-align: center;
-  font-size: 1.8em;
-  width: 20.07%;
-  white-space: nowrap;
-}
-#navlist {
-  overflow: hidden;
-  padding: 0;
-  margin: 0;
-}
-#navlist li {
-  display: inline;
-  list-style-type: none;
-  color: #ac1e1d;
-  margin-right: -.3em;
+@media screen and (max-width: 759px) {
+  footer, #content:after {
+    height: 5.1em;
+  }
+
+  footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #ac1e1d;
+  }
+
+  #contactbox {
+    display: none;
+    background-image: url(media/semitranslogogray.png);
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 0.8em;
+    width: 29em;
+    display: inline-block;
+    text-align: center;
+  }
+
+  #iitfauxlogo {
+    display: none;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 120%;
+    color: #FFF;
+    line-height: 0.2em;
+    margin-left: 0.4em;
+    margin-top: 0.75em;
+    margin-bottom: 0.7em;
+    text-transform: uppercase;
+  }
 }
 
-#navbar a:hover {
-  background-color: black;
-  color: white;
-}
-}
+  /*.htmlCSS specific to pinlogin*/
+  input[type=text] {
+    padding: 5px;
+    border-radius: 5px;
+  }
 
-#uname {
-  padding-left: 2%;
-  float: left;
-}
+  input[type=text]:focus {
+    border-color: #333;
+  }
 
-#cwid {
-  padding-right: 2%;
-  float: right;
-}
+  input[type=submit] {
+    padding: 5px 15px;
+    margin-top: 5px;
+    background: #fff;
+    border: 0 none;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
 
-#floatboxes {
-  width: 100%;
-}
+  a:link, a:visited {
+    color: #000;
+    font-weight: 700;
+  }
 
-#actionbox {
-  background-color: #CFCFCF;
-  float: left;
-  padding-right: 5%;
-  text-decoration: none;
-}
 
-#ablist {
-  text-decoration: none;
-}
 
-#userbar {
-  display: inline-block;
-  background-color: #ac1e1d;
-  width: 100%;
-}
+  /* Login page specific CSS */
+  .logblock label {
+    display: block;
+    text-align: left;
+    font-size: 1.5em;
+    padding-left: 1.1em;
+  }
 
-#ubinfo {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
+  #logwrap {
+    width: 35em;
+    margin: 0 auto;
+    padding-top: 3.4em;
+  }
 
-#ubinfo li {
-  display: inline;
-  color: #FFFFFF;
-  font-size: .9em;
-}
+  #formbox {
+    background-color: #CFCFCF;
+    padding: 1.2em;
+    padding-bottom: 2.1em;
+    padding-top: 2.1em;
+    width: 32em;
+    height: 21.5em;
+    margin: 0 auto;
+  }
 
-body {
-  margin: 0px;
-}
-html, body {
-  height: 100%;
-}
-#content {
-  min-height: 100%;
-  margin-bottom: -5.9em;
-}
+  #logtitle {
+    font-weight: 900;
+    font-size: 3.5em;
+    padding: 0em;
+    line-height: 0.2em;
+    clear: right;
+  }
 
-#content:after{
-  content: "";
-  display: block;
-}
-/* Footer CSS */
-footer, #content:after {
-  height: 5.9em;
-}
-footer {
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  background-color: #ac1e1d;
-}
+  #inputUname, #inputPasswd {
+    width: 92%;
+    padding: 0.1em 0.4em;
+    border-radius: 0.55em;
+    margin-bottom: 0.9em;
+    border: 2px solid #acacac;
+    height: 2.5em;
+  }
 
-#contactbox {
-  background-image: url(media/semitranslogogray.png);
-  padding-right: 7em;
-  padding-left: 1em;
-  padding-top: 0.8em;
-  width: 29em;
-  float: right;
-  text-align: center;
-  clear: right;
-}
+  #loginButton {
+    padding: 0.5em 0.5em;
+    background: #ac1e1d;
+    font-size: 1.5em;
+    font-weight: 700;
+    border: none;
+    height: 2.6em;
+    border-radius: 0.55em;
+    color: white;
+    width: 92%;
+    margin: 0.9em;
+  }
 
-#iitfauxlogo {
-  font-family: 'Century Gothic', sans-serif;
-  font-size: 120%;
-  color: #FFF;
-  line-height:0.2em;
-  margin-left: 0.4em;
-  margin-top: 0.75em;
-  margin-bottom: 0.7em;
-  text-transform: uppercase;
-}
+  #forgot a:link, a:visited {
+    font-size: 1.2em;
+  }
 
-/*.htmlCSS specific to pinlogin*/
+  #forgot a:hover {
+    font-weight: 900;
+  }
 
-input[type=text] {
-  padding:5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-}
+  /* Homepage specific CSS */
+  #floatboxes {
+    display: flex;
+  }
 
-input[type=text]:focus {
-  border-color:#333;
-}
+  #leftbox {
+    float: left;
+    width: 50%;
+    padding: 8%;
+    background-color: white;
+  }
 
-input[type=submit] {
-  padding:5px 15px;
-  margin-top: 5px;
-  background:#fff;
-  border:0 none;
-  text-align: center;
-  cursor:pointer;
-  border: 2px solid black;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-}
+  #rightbox {
+    float: right;
+    padding: 8%;
+    width: 50%;
+    background-color: white;
+  }
 
-a:link, a:visited {
-  color: #000;
-  font-weight: 700;
-}
+  #actionbox {
+    border-radius: 25px;
+    background-color: #CFCFCF;
+    padding-left: 10%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    text-decoration: none;
+  }
 
-/* Login page specific CSS */
-.logblock label {
-  display: block;
-  text-align: left;
-  font-size: 1.5em;
-  padding-left: 1.1em;
-}
+  #infobox {
+    border-radius: 25px;
+    background-color: #CFCFCF;
+    text-decoration: none;
+    padding-left: 10%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
 
-#logwrap {
-  width: 35em;
-  margin: 0 auto;
-  padding-top: 3.4em;
-}
+  #ablist {
+    text-decoration: none;
+  }
 
-#formbox {
-  background-color: #CFCFCF;
-  padding: 1.2em;
-  padding-bottom: 2.1em;
-  padding-top: 2.1em;
-  width: 32em;
-  height: 21.5em;
-  margin: 0 auto;
-}
+  /*=== academics =====*/
+  .container {
+    width: 690px;
+    margin: 0 auto;
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
 
-#logtitle {
-  font-weight: 900;
-  font-size: 3.5em;
-  padding: 0em;
-  line-height: 0.2em;
-  clear: right;
-}
+  }
 
-#inputUname, #inputPasswd {
-  width: 92%;
-  padding: 0.1em 0.4em;
-  border-radius: 0.55em;
-  margin-bottom: 0.9em;
-  border: 2px solid #acacac;
-  height: 2.5em;
-}
+  #links a {
+    display: block;
+    clear: left;
+  }
 
-#loginButton {
-  padding: 0.5em 0.5em;
-  background: #ac1e1d;
-  font-size: 1.5em;
-  font-weight: 700;
-  border: none;
-  height: 2.6em;
-  border-radius: 0.55em;
-  color: white;
-  width: 92%;
-  margin: 0.9em;
-}
+  .headlines {
+    display: inline;
 
-#forgot a:link, a:visited {
-  font-size: 1.2em;
-}
+  }
 
-#forgot a:hover {
-  font-weight: 900;
-}
+  #tabletitle {
+    font-weight: 800;
+    color: #dc143c;
 
-/* Homepage specific CSS */
+  }
 
-#floatboxes {
-  display: flex;
-}
+  #courses {
+    font-size: .9em;
+    width: 400px;
+  }
 
-#leftbox {
-  float: left;
-  width: 50%;
-  padding: 8%;
-  background-color: white;
-}
+  #courses th, td {
+    max-width: 125px;
+    padding: 3px;
+  }
 
-#rightbox {
-  float: right;
-  padding: 8%;
-  width: 50%;
-  background-color: white;
-}
-#actionbox {
-  border-radius: 25px;
-  background-color: #CFCFCF;
-  padding-left: 10%;
-  padding-right: 15%;
-  padding-bottom: 5%;
-  padding-top: 5%;
-  text-decoration: none;
-}
+  tbody tr:nth-child(even) {
+    background-color: #e6e6e6;
+  }
 
-#infobox {
-  border-radius: 25px;
-  background-color: #CFCFCF;
-  text-decoration: none;
-  padding-left: 10%;
-  padding-right: 15%;
-  padding-bottom: 5%;
-  padding-top: 5%;
-}
+  #currentsem {
+    font-style: italic;
+    font-size: 75%;
+  }
 
-#ablist {
-  text-decoration: none;
-}
+  #button1 {
+    text-align: center;
+  }
 
-/*=== academics =====*/
-.container {
-  width: 690px;
-  margin: 0 auto;
-  padding: 5px;
-  overflow: hidden;
-  position: relative;
-  z-index: 1;
+@media screen and (max-width: 759px) {
+  #navbar a.active {
+    background-color: black;
+    color: white;
+  }
 
-}
+  #navbar a {
+    display: block;
+    text-decoration: none;
+    background-color: #ac1e1d;
+    color: white;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    text-align: center;
+    font-size: 1.8em;
+    white-space: nowrap;
+  }
 
-#links a {
-  display: block;
-  clear:left;
-}
+  #navlist {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
 
-.headlines {
-  display: inline;
+  #navlist li {
+    list-style-type: none;
+    color: #ac1e1d;
+  }
 
-}
+  #navbar a:hover {
+    background-color: black;
+    color: white;
+  }
 
-#tabletitle {
-  font-weight: 800;
-  color: #dc143c;
+  #userbar {
+    display: block;
+    background-color: #ac1e1d;
+    width: 100%;
+  }
 
-}
+  #ubinfo {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
 
-#courses {
-  font-size: .9em;
-  width: 400px;
-}
+  #ubinfo li {
+    display: block;
+    color: #FFFFFF;
+    font-size: .9em;
+  }
 
-#courses th,td {
-  max-width: 125px;
-  padding: 3px;
-}
+  #uname {
+    padding-left: 2%;
+    float: left;
+  }
 
-tbody tr:nth-child(even){
-  background-color: #e6e6e6;
-}
-
-#currentsem {
-  font-style: italic;
-  font-size: 75%;
-}
-
-#button1 {
-  text-align: center;
+  #cwid {
+    padding-right: 2%;
+    float: right;
+  }
 }

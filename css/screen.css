@@ -48,40 +48,70 @@ textarea:focus, input:focus{
 
 /* Navbar CSS */
 
-@media screen and (min-width: 670px) {
-#navbar a.active {
-  background-color: black;
-  color: white;
+@media screen and (min-width: 760px) {
+  #navbar a.active {
+    background-color: black;
+    color: white;
+  }
+
+  #navbar a {
+    display: block;
+    text-decoration: none;
+    background-color: #ac1e1d;
+    color: white;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    text-align: center;
+    font-size: 1.8em;
+    white-space: nowrap;
+  }
+  #navlist {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
+  #navlist li {
+    list-style-type: none;
+    color: #ac1e1d;
+  }
+
+  #navbar a:hover {
+    background-color: black;
+    color: white;
+  }
 }
 
-#navbar a {
-  display: inline-block;
-  text-decoration: none;
-  background-color: #ac1e1d;
-  color: white;
-  padding-top: .5em;
-  padding-bottom: .5em;
-  text-align: center;
-  font-size: 1.8em;
-  width: 20.07%;
-  white-space: nowrap;
-}
-#navlist {
-  overflow: hidden;
-  padding: 0;
-  margin: 0;
-}
-#navlist li {
-  display: inline;
-  list-style-type: none;
-  color: #ac1e1d;
-  margin-right: -.3em;
-}
+@media screen and (min-width: 400px) {
+  #navbar a.active {
+    background-color: black;
+    color: white;
+  }
 
-#navbar a:hover {
-  background-color: black;
-  color: white;
-}
+  #navbar a {
+    display: block;
+    text-decoration: none;
+    background-color: #ac1e1d;
+    color: white;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    text-align: center;
+    font-size: 1.8em;
+    white-space: nowrap;
+  }
+  #navlist {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
+  #navlist li {
+    list-style-type: none;
+    color: #ac1e1d;
+  }
+
+  #navbar a:hover {
+    background-color: black;
+    color: white;
+  }
 }
 
 #uname {
@@ -110,7 +140,7 @@ textarea:focus, input:focus{
 }
 
 #userbar {
-  display: inline-block;
+  display: block;
   background-color: #ac1e1d;
   width: 100%;
 }
